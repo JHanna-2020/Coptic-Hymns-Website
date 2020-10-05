@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'CSAvvaShenouda';
+
+    src: url('fonts/CSAvvaShenouda.eot') format('embedded-opentype'),
+         url('fonts/CSAvvaShenouda.woff2') format('woff2'),
+         url('fonts/CSAvvaShenouda.woff') format('woff'),
+         url('fonts/CSAvvaShenouda.ttf') format('truetype'),
+         url('fonts/CSAvvaShenouda.svg#CSAvvaShenouda') format('svg');
+}

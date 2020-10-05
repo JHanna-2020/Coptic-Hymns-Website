@@ -1,0 +1,32 @@
+
+hr{
+  border-style: none;
+  border-top-style:dotted;
+  border-color: grey;
+  border-width:5px;
+  width:5%;
+}
+h2{
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.navbar{
+  background-color: #F08080;
+  color: white;
+  font-size: 20px;
+  font-weight: 900;
+}
+.nav-item{
+  margin: 50px;
+  font-family: Montserrat;
+  color:black;
+  font-weight: 900;
+}
+.download{
+  font-family: Montserrat, sans-serif;
+  text-align: center;
+}
+.name{
+  font-family: CSAvvaShenouda;
+}
