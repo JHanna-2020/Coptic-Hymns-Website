@@ -24,8 +24,8 @@ h1{
 }
 .cross-img{
 display: block;
-position:relative;
-padding-left: 43rem;
+margin-left: auto;
+margin-right: auto;
 width: 50px;
 height:50px;
 }
@@ -58,6 +58,26 @@ a:hover{
 }
 .sidenav{
   background-color: black;
+  margin-top: 5px;
+}
+.bible-verse{
+  font-family: Montserrat, sans-serif;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: inline-block;
+
+
+
+}
+.bible-2{
+  color:red;
+
+}
+.verse{
+  margin-left: 5px;
+}
+#bible{
+  text-align: center;
 }
 
 hr{
