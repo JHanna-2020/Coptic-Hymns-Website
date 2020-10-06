@@ -6,6 +6,10 @@ hr{
   border-width:5px;
   width:5%;
 }
+h1{
+  font-family: Montserrat;
+  text-align:center;
+}
 h2{
   font-family: Montserrat, sans-serif;
   font-weight: bold;
@@ -27,6 +31,36 @@ h2{
   font-family: Montserrat, sans-serif;
   text-align: center;
 }
-.name{
+.name1{
+  font-family: CSAvvaShenouda;
+  margin-right:auto;
+}
+.name2{
+  font-family: CSAvvaShenouda;
+}
+.english-name{
+  padding-left: 10px;
+
+  font-family: Montserrat;
+}
+a:hover{
+  color: blue;
+}
+.hymn-name{
+  display: inline;
+  padding: 0;
+  text-indent: 0;
+}
+.cross-img{
+display: block;
+position:relative;
+padding-left: 43rem;
+width: 50px;
+height:50px;
+}
+.tasbeha{
+  font-family: Montserrat;
+}
+.coptic-name{
   font-family: CSAvvaShenouda;
 }
