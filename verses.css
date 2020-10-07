@@ -1,0 +1,35 @@
+hr{
+  border-style: none;
+  border-top-style:dotted;
+  border-color: grey;
+  border-width:5px;
+  width:5%;
+}
+.bible-verse{
+  font-family: Montserrat, sans-serif;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding-bottom: 5.5px;
+
+}
+.heading{
+  font-family: Montserrat;
+  text-align: center;
+}
+.cross-img{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50px;
+height:50px;
+}
+.bible{
+  font-family: Montserrat;
+  text-align:center;
+}
+.verse{
+  font-family: Montserrat;
+}
+.bible-2{
+  color: red;
+}
