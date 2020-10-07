@@ -47,6 +47,7 @@ h2{
 }
 .name2{
   font-family: 'cs_avva_shenoudaregular';
+
 }
 .english-name{
   padding-left: 10px;
@@ -71,6 +72,11 @@ height:50px;
 .tasbeha{
   font-family: Montserrat;
 }
-.coptic-name{
 
+
+.number{
+  text-align: right;
+}
+.eng-name{
+  font-family: Montserrat;
 }

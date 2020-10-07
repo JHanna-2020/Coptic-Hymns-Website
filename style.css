@@ -109,7 +109,8 @@ a:hover{
   padding-bottom: 5.5px;
 }
 .topic{
-  color: Blue;
+  font-family: 'Roboto';
+
   text-decoration: underline;
   margin-left: 5px;
 }
@@ -124,7 +125,4 @@ a:hover{
   margin-left: 5px;
   border: 1px solid black;
   border-radius: 5px;
-}
-.versear{
-  
 }
