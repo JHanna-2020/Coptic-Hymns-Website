@@ -94,6 +94,9 @@ a:hover{
   text-align: center;
   text-decoration: underline;
 }
+.readmore{
+  margin-left: 10px;
+}
 .readmore:hover{
   color:blue;
   background-color: #D3D3D3;
@@ -119,10 +122,25 @@ a:hover{
   margin-right: 10px;
   line-height: 1.4;
 }
+
 .img{
   float: left;
   margin-right: 10px;
-  margin-left: 5px;
+  margin-left: 2px;
   border: 1px solid black;
   border-radius: 5px;
+  height: 295px;
+  width: 171px;
+}
+.imgd3{
+  float: left;
+  margin-right: 10px;
+  margin-left: 2px;
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 175px;
+  width: 175px;
+}
+.topic{
+  font-family: 'Roboto';
 }

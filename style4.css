@@ -16,6 +16,25 @@ margin-right: auto;
 width: 50px;
 height:50px;
 }
+.navbar{
+  background-color: #F08080;
+  color: white;
+  font-size: 20px;
+  font-weight: 900;
+}
+.nav-item{
+  margin: 45px;
+  font-family: Montserrat;
+  color:black;
+  font-weight: 900;
+
+}
+.nav-item:hover{
+  background-color: #D3D3D3;
+}
+a:hover{
+  color: blue;
+}
 .paragraph{
   margin-left: 10px;
   margin-right: 10px;
@@ -34,10 +53,33 @@ height:50px;
 .img{
   float: left;
   margin-right: 10px;
-  margin-left: 5px;
+  margin-left: 2px;
   border: 1px solid black;
   border-radius: 5px;
+  height: 295px;
+  width: 171px;
+}
+.imgd3{
+  float: left;
+  margin-right: 10px;
+  margin-left: 2px;
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 175px;
+  width: 175px;
 }
 .topic{
   font-family: 'Roboto';
+}
+.footer-link{
+  font-family: Montserrat, sans-serif;
+  color: white;
+  font-size: 20px;
+  font-weight: 900;
+  margin: 45px;
+  text-align: center;
+}
+.sidenav{
+  background-color: black;
+  margin-top: 5px;
 }
