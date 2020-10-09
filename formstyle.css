@@ -1,0 +1,55 @@
+h1{
+  font-family: 'Roboto';
+  text-align: center;
+}
+hr{
+  border-style: none;
+  border-top-style:dotted;
+  border-color: grey;
+  border-width:5px;
+  width:5%;
+}
+
+label{
+  margin-bottom: 10
+}
+
+.name{
+
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+.form{
+  max-width: 500px;
+  margin: 2rem auto;
+  border: 2px solid #E74C3C;
+  padding: 2rem;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+label{
+  display: block;
+}
+input, textarea{
+  display:block;
+  width:100%;
+}
+radio{
+  background-color: blue
+}
+
+.BTN{
+  border:0;
+  background: #343050;
+  padding:.5rem;
+  color:white;
+  margin:1rem 0;
+  width:auto;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.BTN:hover{
+  background-color:#3498db;
+}

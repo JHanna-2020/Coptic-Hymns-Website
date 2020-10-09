@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Hymn Request Form</title>
+<link rel="stylesheet" href="formstyle.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+<h1>Hymn Request form</h1>
+<hr>
+<form class="form"action="https://formspree.io/f/xrgoedre" method="POST">
+
+  <label>
+    Name:
+    <input type="text" class="name" name="Name" placeholder="Enter your name">
+  </label>
+<br>
+  <label>
+    Email:
+    <input type="email" class="email" name="Email"placeholder="Enter your email">
+  </label>
+<br>
+  <label>
+    What hymn are you Looking for?:
+    <input type="text" class="product" name="Product Name"placeholder="Enter Hymn Name">
+  </label>
+<br>
+  <label>
+What Langauage is the Hymn? (Coptic, English, or Arabic)<br>
+
+  <input type="text" name="Langauage" value="" placeholder="Coptic, English or Arabic">
+  </label>
+  
+<div class="status">
+
+</div>
+  <button onclick="alert('Thank you... Your form has been submitted.')" name="button" type="submit" class="BTN">
+    Submit
+  </button>
+</form>
+</body>
+</html>
