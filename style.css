@@ -15,7 +15,8 @@ hr{
   border-width:5px;
   width:5%;
 }
-.welcome-text{
+
+.welcome-text2{
   text-align: center;
   margin-top: -20px;
   font-family: Montserrat;
@@ -109,7 +110,8 @@ a:hover{
   font-family: Montserrat, sans-serif;
   border: 1px solid black;
   border-radius: 5px;
-  padding-bottom: 5.5px;
+
+
 }
 .topic{
   font-family: 'Roboto';
@@ -141,6 +143,20 @@ a:hover{
   height: 175px;
   width: 175px;
 }
+.imgd4{
+  float:left;
+  margin-right: 10px;
+  margin-left: 2px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
 .topic{
   font-family: 'Roboto';
+}
+.test{
+  border-style: none;
+  border-top-style:dotted;
+  border-color: grey;
+  border-width:5px;
+  width:5%;
 }

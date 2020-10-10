@@ -22,3 +22,19 @@ hr{
 border: 2px blue solid;
 
 }
+.navbar{
+  background-color: #F08080;
+  color: white;
+  font-size: 20px;
+  font-weight: 900;
+}
+.nav-item{
+  margin: 45px;
+  font-family: Montserrat;
+  color:black;
+  font-weight: 900;
+
+}
+.nav-item:hover{
+  background-color: #D3D3D3;
+}
