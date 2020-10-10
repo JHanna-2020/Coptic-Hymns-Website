@@ -6,6 +6,10 @@ h1{
   text-align: center;
   color: white;
 }
+h2{
+  color:red;
+  font-family: Montserrat;
+}
 hr{
   border-style: none;
   border-top-style:dotted;
