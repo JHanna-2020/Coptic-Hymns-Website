@@ -57,6 +57,9 @@ height:50px;
 a:hover{
   color: blue;
 }
+.current{
+  background-color: #4CAF50;
+}
 .descrption{
   font-family: Montserrat;
   text-align: center;
@@ -159,4 +162,7 @@ a:hover{
   border-color: grey;
   border-width:5px;
   width:5%;
+}
+.nav-item .active {
+  background-color: #4CAF50;
 }

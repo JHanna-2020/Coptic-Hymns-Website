@@ -42,3 +42,16 @@ border: 2px blue solid;
 .nav-item:hover{
   background-color: #D3D3D3;
 }
+.current{
+  background-color: #4CAF50;
+}
+.video1
+{overflow:hidden; padding-bottom:56.25%; position:relative; height:0;}
+.video iframe
+{left:0; top:0; height:100%; width:100%; position:absolute;}
+.update{
+  font-family: Montserrat;
+  font-size: 10px;
+  color:white;
+  text-align: center;
+}
