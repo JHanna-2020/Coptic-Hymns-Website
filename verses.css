@@ -39,3 +39,25 @@ height:50px;
   font-family: Montserrat;
   margin-left: 5px;
 }
+.current{
+  background-color: #4CAF50;
+}
+.navbar{
+  background-color: #F08080;
+  color: white;
+  font-size: 20px;
+  font-weight: 900;
+}
+.nav-item{
+  margin: 45px;
+  font-family: Montserrat;
+  color:black;
+  font-weight: 900;
+
+}
+.nav-item:hover{
+  background-color: #D3D3D3;
+}
+a:hover{
+  color: blue;
+}
