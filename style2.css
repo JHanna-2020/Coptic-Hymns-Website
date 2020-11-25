@@ -23,7 +23,29 @@
   color: white;
 }
 
-}
+
 .number{
   text-align: right;
 }
+.header{
+  font-family: "Montserrat",Arial, Helvetica, sans-serif;
+  align-items: center;
+}
+  .headerTitle{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .eng-name, .name2{
+    color: blue;
+  }
+  .eng-name:hover, .name2:hover{
+    color: purple;
+  }
+  
+  .test{
+    text-align: center;
+    background-color:black ;
+    color: white;
+    font-size: 1.5rem;
+    
+  }
