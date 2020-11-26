@@ -20,7 +20,7 @@ height:50px;
 }
 .nav-item{
   margin: 45px;
-  font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
   color:black;
   font-weight: 900;
 
@@ -31,3 +31,15 @@ height:50px;
 .current{
     background-color: #4CAF50;
   }
+  .name2{
+    font-family: 'CSAvvaShenouda';
+  }
+body{
+  font-family: "Montserrat", sans-serif;
+}
+a{
+  color:blue;
+}
+a:hover{
+  color:purple;
+}
