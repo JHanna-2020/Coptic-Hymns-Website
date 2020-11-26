@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="style2.css">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="/main.js"></script>
 </head>
 
 <body>
@@ -16,15 +17,26 @@
   <hr>
   <div class="navbar">
     <a class="nav-item" href="index.html">Home</a>
-    <a class="nav-item current" href="audio.html">Tasbeha</a>
+    <a class="nav-item current" href="tasbeha.html">Tasbeha</a>
     <a class="nav-item" href="#">Liturgy</a>
     <a class="nav-item" href="#">Joyful</a>
     <a class="nav-item" href="#">Veneration/Glorification</a>
     <a class="nav-item" href="#">More</a>
+  
+
+
     <a  class="nav-item"href="hymnRequestForm.html">Request a Hymn</a>
 
   </div>
-
+<form class="myForm" action="">
+  <select name="" id="sortInput">
+   <label for="Sort By:"></label>
+    <option value="Language...">Language...</option>
+    <option value="">Coptic</option>
+    <option value="">English</option>
+  </select>
+  <button type="button" onclick="sort()">Submit</button>
+</form>
   <h1>Tasbeha</h1>
   <hr>
 <div class="ibrahim-ayad-tasbeha">
@@ -48,30 +60,30 @@
       <td class="number">1</td>
       <td class="eng-name"><a class="eng-name" href="Tasbeha/C. Ibrahim Ayad/01 Ten Theno Long Intro.mp3"> Arise Oh Children...(Long Intro)</a> <a
           class="name2"href="Tasbeha/C. Ibrahim Ayad/01 Ten Theno Long Intro.mp3">Ten;ynou ``e`pswi...</a></td>
-      <td>Coptic</td>
+      <td id="sort">Coptic</td>
     </tr>
     <tr>
       <td class="number">2</td>
       <td class="eng-name"><a class="eng-name" href="Tasbeha/C. Ibrahim Ayad/02 Ten Theno Contined.mp3">Arise Oh Children...</a><a
           class="name2" href="Tasbeha/C. Ibrahim Ayad/02 Ten Theno Contined.mp3">Ten;ynou ``e`pswi...</a></td>
-      <td>Coptic</td>
+      <td id="sort">Coptic</td>
     </tr>
     <tr>
       <td class="number">3</td>
       <td class="eng-name"><a class="eng-name" href="Tasbeha/C. Ibrahim Ayad/03 Tennav - We Look at the Resurrection.mp3">We Look At Resurrection...</a><a
           class="name2" href="Tasbeha/C. Ibrahim Ayad/03 Tennav - We Look at the Resurrection.mp3" > Tennau `e`t`anactacic...</a></td>
-      <td>Coptic</td>
+      <td id="sort">Coptic</td>
     </tr>
     <tr>
       <td class="number">4</td>
       <td class="eng-name"><a class="eng-name" href="Tasbeha/C. Ibrahim Ayad/04 First Hoos.mp3">First Hoos:</a><a class="name2"
           href="Tasbeha/C. Ibrahim Ayad/04 First Hoos.mp3"> Tote Afhwc `nje Mw`ucyc...</a></td>
-      <td>Coptic</td>
+      <td id="sort">English</td>
     </tr>
     <tr>
       <td class="number">5</td>
       <td><a class="eng-name" href="Tasbeha/C. Ibrahim Ayad/05 First Hoos Lobsh (With the split, the sea split).mp3">First Hoos Lobsh:</a><a class="name2"href="Tasbeha/C.Ibrahim Ayad/05 First Hoos Lobsh (With the split, the sea split).mp3"> Qen ouswt...</a></td>
-      <td>Coptic</td>
+      <td id="sort">Coptic</td>
     </tr>
     <tr>
       <td class="number">6</td>
@@ -120,7 +132,26 @@
     </tr>
     <tr>
     <td class="number">15</td>
-    <td><a href="Tasbeha/C. Ibrahim Ayad/16  Psali Watos - Aripsalin - O Sing Unto Him.mp3" class="eng-name">Aripsalin: </a><a class="name2"href=""></a></td>
+    <td><a href="Tasbeha/C. Ibrahim Ayad/16  Psali Watos - Aripsalin - O Sing Unto Him.mp3" class="eng-name">Aripsalin: </a><a href="Tasbeha/C. Ibrahim Ayad/16  Psali Watos - Aripsalin - O Sing Unto Him.mp3" class="name2">Ari'alin</a></td>
+    <td>Coptic</td>
+    </tr>
+    <td class="number">16</td>
+    <td><a class="eng-name" href="/Tasbeha/C. Ibrahim Ayad/17 Tenen.mp3">Tenen: </a><a class="name2"href="Tasbeha/C. Ibrahim Ayad/17 Tenen.mp3">Tenen</a></td>
+    <td>Coptic</td>
+    </tr>
+    <tr>
+      <td class="number">17</td>
+      <td><a href="Tasbeha/C. Ibrahim Ayad/18  Teoweh Ensok - We follow you with all our Hearts.mp3" class="eng-name">Tenoweh Ensok: </a><a href="Tasbeha/C. Ibrahim Ayad/18  Teoweh Ensok - We follow you with all our Hearts.mp3" class="name2">Tenoueh `ncwk...</a></td>
+      <td>Coptic</td>
+    </tr>
+    <tr>
+      <td class="number">18</td>
+      <td><a href="Tasbeha/C. Ibrahim Ayad/19 Commemoration of Saints.mp3" class="eng-name">Commemoration of the Saints</a></td>
+      <td>Coptic</td>
+    </tr>
+    <tr>
+      <td class="number">19</td>
+      <td><a href="Tasbeha/C. Ibrahim Ayad/20 Doxologies.mp3" class="eng-name">St. Mary Doxology: </a><a href="Tasbeha/C. Ibrahim Ayad/20 Doxologies.mp3" class="name2">Temetnis] `w Maria...</a></td>
     </tr>
   </table>
 
@@ -128,7 +159,3 @@
 
 </html>
 
-
-</body>
-
-</html>
