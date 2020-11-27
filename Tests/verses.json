@@ -1,0 +1,6 @@
+{
+    "class" : "Test",
+    "students" : ["student1", "student2" , "Student3"],
+    "date" : "November, 27, 2020"
+    
+}

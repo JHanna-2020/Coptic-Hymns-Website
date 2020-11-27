@@ -33,8 +33,8 @@
     <a class="nav-item" href="tasbeha.html">Tasbeha</a>
     <a class="nav-item" href="#">Liturgy</a>
     <a class="nav-item" href="#">Joyful</a>
-    <a class="nav-item" href="#">Veneration/Glorification</a>
-    <a class="nav-item" href="#">More</a>
+    <a class="nav-item" href="#">Veneration</a>
+
     <a class="nav-item" href="all-hymns.html">Sort by Artist</a>
     <a class="nav-item" href="bibleVerses.html">Bible Meditation</a>
 
@@ -46,12 +46,12 @@
     This website will have multiple coptic hymns ranging from tasbeha, to Pascha, to Joyful Season Hymns, and much more
     uploaded weekly.
   </p>
-  <p class="descrption">Happy Thanksgiving!!</p>
+ 
   <hr>
   <!-- Daily Bible Verse Section-->
   <div class="bible-verse">
     <h2 id="bible">Daily Bible Verse:</h2>
-    <h2 id="date">11/26/2020</h2>
+    <h2 id="currentDate">11/26/2020</h2>
 
 
     <p id="verse">I said, "I will confess my sins to the Lord," and you forgave my guilt.</p>
@@ -119,7 +119,20 @@ He was simple and pure in heart therefore he was ordained a priest and was appoi
     <a class="footer-link" href="#clients">YouTube Channel</a>
     <a class="footer-link" href="#">About Me</a>
     <a href="resources.html" class="footer-link">Resources</a>
-
+  </div>
+  <br>
+  <div class="form">
+      <form action="">
+        <label for="">Date</label>
+        <input type="text" name="" id="dateInput">
+        <button id="submit" onclick="showForm()">Submit</button>
+      </form>
+    </div>
+    <script>
+      // changing the date everyday
+      var date = new Date("2020-11-28");
+      document.getElementById("currentDate").innerHTML = date.toDateString();
+    </script>
 </body>
 
 

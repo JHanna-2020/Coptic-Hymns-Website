@@ -1,5 +1,6 @@
 var rTitle;
 var hideMyForm;
+var showMyForm;
 var story;
 var topic;
 var date;
@@ -22,10 +23,8 @@ function hideForm() {
 
 
 };
-function test(){
-    date=document.getElementById("dateInput").value;
-    document.getElementById("date").innerHTML = date;
-};
+
+
 function sort(){
 getLan=document.getElementById("sort")
  sortTest=document.getElementById("sortInput");
@@ -36,3 +35,6 @@ getLan=document.getElementById("sort")
  }
 
 }
+
+document.getElementById('currentDate').innerHTML=Date();
+    
