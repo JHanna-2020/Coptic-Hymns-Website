@@ -7,6 +7,9 @@ var date;
 var verse;
 var sortTest;
 var getLan;
+var getLangauge;
+var langInput;
+var setDate;
 
 function changeTitle() {
     rTitle = document.getElementById("titleText").value;
@@ -25,16 +28,9 @@ function hideForm() {
 };
 
 
-function sort(){
-getLan=document.getElementById("sort")
- sortTest=document.getElementById("sortInput");
- if (sortTest=="English" || sortTest =="Language..." && getLan=="English") {
-    display===""
- } else {
-  display==="none"   
- }
 
-}
-
-document.getElementById('currentDate').innerHTML=Date();
+function setDate(){
     
+    document.getElementById("currentDate").replaceWith(Date());
+};
+

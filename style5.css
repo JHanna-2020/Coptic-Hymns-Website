@@ -1,3 +1,4 @@
+/* video page styling */
 body{
   background-color: black;
 }
@@ -22,7 +23,7 @@ hr{
   display: inline;
 
 }
-.video{
+.video, .video2{
 border: 2px blue solid;
 
 }

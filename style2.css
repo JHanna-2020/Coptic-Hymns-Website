@@ -53,3 +53,11 @@
     border: 2px black solid;
     border-radius: 5px;
   }
+  .download{
+    
+    cursor: pointer;
+  }
+  .download:hover{
+    color:purple;
+  }
+  
